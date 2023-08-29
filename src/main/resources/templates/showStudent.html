@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student info</title>
+</head>
+<body>
+
+<h3>Displaying Retrieve data</h3>
+	<table border>
+		<thead>
+			<tr>
+				<th>Kod ID</th>
+				<th>Name</th>
+				<th>Batch</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td th:text="${s.kodId}"></td>
+				<td th:text="${s.name}"></td>
+				<td th:text="${s.batch}"></td>
+			</tr>
+		</tbody>
+	</table>
+	</body>
+</html>
